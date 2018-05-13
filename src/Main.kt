@@ -8,7 +8,7 @@ fun main(args:Array<String>){
         println("they are different")
     }
 
-    val p1 = Person(age = 12,name1 = "alex")
+//    val p1 = Person(age = 12,name1 = "alex")
 
 //    val bar = Bar()
 //    bar.f()
@@ -26,11 +26,11 @@ fun main(args:Array<String>){
 
 }
 
-class Child(): Person(""){
-    override fun v() {
-        super.v()
-    }
-}
+//class Child(): Person(""){
+//    override fun v() {
+//        super.v()
+//    }
+//}
 
 open class Base(val name: String) {
 

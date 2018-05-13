@@ -1,11 +1,15 @@
-open class Person(val name:String) {
+abstract class Person() {
+    var name:String = ""
+    var age:Int = 0
 
-//    constructor(age:Int) : this(name = name)
+    open val country:String = "China".also{ println("Country : $it")}
 
-//    constructor(name: String)
+    open fun eat(){
 
-    constructor(age: Int, name1: String) : this(name1)
+        println("eat")
+    }
 
-    open fun v(){}
-    fun nv(){}
+//    abstract fun exercise()
+
+    fun shopping(){println("shopping")}
 }
