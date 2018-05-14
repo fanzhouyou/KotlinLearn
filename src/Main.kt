@@ -101,4 +101,4 @@ class C() : A(), B {
 }
 
 
-// ces
+// ceshi
