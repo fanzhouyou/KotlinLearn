@@ -22,4 +22,6 @@ class Programer(val company :String? = "Tencnet",val language :String) :Person()
     constructor(ide:String) : this(language = "C"){
         println("constructor")
     }
+
+    constructor(ide: String,language: String):this(l)
 }
